@@ -1,0 +1,60 @@
+/* Variabless */
+:root {
+    --main-font: Montserrat, sans-serif;
+    --main-color: #111; 
+    --light-bg-color: #fafafa;
+
+}
+/* Base styles */
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: var(--light-bg-color);
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+ul {
+    list-style: none;  
+}
+
+/* Header */
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+ 
+}
+.header-logo-italic {
+  font-style: italic;
+}
+.header-logo-image {
+}
+.header-list {
+    
+}
+.header-item {
+}
+.header-item-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+  
+}
+.header-socials {
+}
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
