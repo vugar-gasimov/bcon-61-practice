@@ -172,3 +172,38 @@ ol {
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
+
+/* Product section */
+.product {
+}
+.product-title {
+}
+.section-title {
+}
+.section-title-accent {
+}
+.product-list {
+}
+.product-item {
+  background-color: var(--light-color);
+}
+.product-img {
+}
+.product-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.product-desc {
+  color: var(--main-color-70);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+.product-price {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--light-bg-color);
+}
