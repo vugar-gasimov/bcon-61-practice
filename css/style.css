@@ -110,9 +110,18 @@ svg {
 
 .header {
 }
+
+.header-container {
+  display: flex;
+}
+
 .header-nav {
+  display: flex;
+  gap: 365px;
 }
 .header-logo {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
@@ -124,16 +133,26 @@ svg {
 .header-logo-image {
 }
 .header-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 .header-item {
 }
 .header-item-link {
+  display: block;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-left: auto;
 }
 .socials {
 }
@@ -141,6 +160,7 @@ svg {
 }
 .socials-link {
   display: block;
+
   width: 40px;
   height: 40px;
   padding: 8px 8px;
